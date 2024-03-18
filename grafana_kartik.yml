@@ -1,6 +1,6 @@
 ---
 - name: Install Grafana
-  hosts: 172.31.44.21
+  hosts: 13.233.128.154
   become: yes
   tasks:
     - name: Install required packages
